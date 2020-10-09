@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfdfd142-627d-4707-b8c7-2898d9a4a158" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/base/DockerBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/base/EnvironmentBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/base/HarborBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/base/SendMessageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/base/UrlProtocolBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/base/WinBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/config/DockerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/config/HarborConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/config/HostsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/config/KubernetesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/config/MysqlConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/config/NetworkConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/config/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/config/UrlProtocolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/ImageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/IpTableDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/TemplateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/VmDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/impl/CourseDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/impl/ImageDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/impl/IpTableDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/impl/TemplateDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/dao/impl/VmDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/entity/HarborLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/entity/HarborProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/entity/HarborRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/entity/HarborTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/entity/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/entity/LinuxFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/entity/NameGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/entity/Software.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/factory/ProtocolFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/protocol/DeploymentFirstVisit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/protocol/ReplaceDeployment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/protocol/Restore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/protocol/base/ProtocolBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/protocol/snapShot/DeleteSnapShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/protocol/snapShot/GetSnapShots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/protocol/snapShot/PushSnapShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/service/DockerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/service/NetworkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/service/SnapShotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/service/TemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/service/UrlProtocolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/util/LinuxUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/util/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/util/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/util/TimerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kubernetes/util/YmlReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/TAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/TCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/TImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/TIpTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/TStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/TTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/TTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/TVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwx/entity/pojo/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-pro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kubernetes/docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kubernetes/harbor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kubernetes/hosts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kubernetes/kubernetes.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kubernetes/network.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/实验报告-模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-pro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/base/DockerBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/base/EnvironmentBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/base/HarborBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/base/SendMessageBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/base/UrlProtocolBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/base/WinBase$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/base/WinBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/config/DockerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/config/HarborConfig$ProjectMetadata.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/config/HarborConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/config/HostsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/config/KubernetesConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/config/MysqlConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/config/NetworkConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/config/ServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/config/UrlProtocolConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/CourseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/ImageDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/IpTableDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/TemplateDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/VmDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/impl/CourseDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/impl/ImageDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/impl/IpTableDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/impl/TemplateDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/dao/impl/VmDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/entity/HarborLabel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/entity/HarborProject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/entity/HarborRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/entity/HarborTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/entity/Host.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/entity/LinuxFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/entity/NameGenerate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/entity/Software.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/factory/ProtocolFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/DeploymentFirstVisit$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/DeploymentFirstVisit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/ReplaceDeployment$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/ReplaceDeployment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/Restore$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/Restore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/base/ProtocolBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/snapShot/DeleteSnapShot$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/snapShot/DeleteSnapShot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/snapShot/GetSnapShots$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/snapShot/GetSnapShots.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/snapShot/PushSnapShot$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/protocol/snapShot/PushSnapShot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/service/DockerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/service/NetworkService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/service/SnapShotService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/service/TemplateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/service/UrlProtocolService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/LinuxUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/LogUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/TaskQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/Timer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/Timer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/TimerTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/TimerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kubernetes/util/YmlReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/TAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/TCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/TImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/TIpTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/TStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/TTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/TTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/TVm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wwx/entity/pojo/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kubernetes/docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kubernetes/harbor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kubernetes/hosts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kubernetes/kubernetes.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kubernetes/network.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/实验报告-模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/docker-client-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/docker-client-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dockerClient" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="00f9b6b5-0503-4557-b573-9acd7c0ca430" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Administrator\IdeaProjects\dockerClient\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZHONUALPh4m9qkq0D4t1aBWK4d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wwx.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\dockerClient\src\main\resources" />
+      <recent name="C:\Users\Administrator\IdeaProjects\dockerClient\src\main" />
+      <recent name="C:\Users\Administrator\IdeaProjects\dockerClient\src\main\java\com\wwx" />
+      <recent name="C:\Users\Administrator\IdeaProjects\dockerClient\src\main\java\com\kubernetes\config" />
+      <recent name="C:\Users\Administrator\IdeaProjects\dockerClient\src\main\java\com\kubernetes\base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kubernetes.T" />
+      <module name="docker-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kubernetes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.kubernetes.Test" />
+      <module name="docker-client" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kubernetes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.T" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfdfd142-627d-4707-b8c7-2898d9a4a158" name="Default Changelist" comment="" />
+      <created>1584492512476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584492512476</updated>
+    </task>
+    <task id="LOCAL-00001" summary="代码混淆">
+      <created>1602233577109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602233577110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码混淆" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码混淆" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1602233574124">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1602233574124" />
+    <state x="421" y="104" key="FileChooserDialogImpl" timestamp="1602233309330">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="104" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1602233309330" />
+    <state width="1237" height="278" key="GridCell.Tab.0.bottom" timestamp="1594115081825">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="278" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1594115081825" />
+    <state width="1237" height="278" key="GridCell.Tab.0.center" timestamp="1594115081825">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="278" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1594115081825" />
+    <state width="1237" height="278" key="GridCell.Tab.0.left" timestamp="1594115081824">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="278" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1594115081824" />
+    <state width="1237" height="278" key="GridCell.Tab.0.right" timestamp="1594115081825">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="278" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1594115081825" />
+    <state x="144" y="5" key="SettingsEditor" timestamp="1602234138747">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="144" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1602234138747" />
+    <state x="233" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602234280427">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="96" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602234280427" />
+    <state x="398" y="162" key="git4idea.merge.GitPullDialog" timestamp="1602234259632">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="398" y="162" key="git4idea.merge.GitPullDialog/0.0.1280.720@0.0.1280.720" timestamp="1602234259632" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kubernetes/service/TemplateService.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
